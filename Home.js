@@ -5,7 +5,7 @@ let logo = document.getElementById("HF-logo");
 let hed1 = document.getElementById("HF-hed1");
 
 opn.addEventListener("click", function(){
-    if(opc == 1 && inpc == 1){
+    if(opc == 1){
         opened.style.transition = "top 0.3s"
         opened.style.top = "15vh"
         opc = 0;
